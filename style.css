@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+  border: none;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(196, 82, 82);
+    height: 20vh;
+    
+}
+
+.logo{
+    background-color: aqua;
+    height: 9vh;
+    width:70px ;
+    margin-left: 30px;
+    margin-top: 3vh;
+    border-radius: 80px;
+    padding: 9px 8px;
+    text-align: center;
+}
+.nav-links{
+    background-color: blueviolet;
+    height: 9vh;
+    width: 500px;
+    margin-top: 5vh;
+    margin-right: 35px;
+    text-align: center;
+}
+.master-head{
+    background-color:  rgb(87, 87, 223);
+    height: 78vh;
+    position: relative;
+}
+.headimg{
+    background-color: rgb(226, 240, 33);
+   height: 70vh;
+   width: 1250px;
+
+ margin-top: 2.5vh;
+ margin-left: 55px;
+}
+.headimg h5{
+    background-color: rgb(177, 121, 121);
+    height: 10vh;
+    width: 500px;
+    margin-top: 80px;
+   margin-left:200px;
+}
+ .headimg p{
+    background-color: rgb(68, 145, 100);
+    height: 10vh;
+    width: 500px;
+    margin-top: 30px;
+    margin-left:200px ;
+}
+.headimg button{
+    background-color: pink;
+    padding: 12px 20px;
+    border-radius: 3px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border: none;
+}
+.about-us{
+    background-color: rgb(206, 13, 13);
+    height: 95vh;
+    display: flex;
+    }
+    .image1{
+        background-color: rgb(247, 231, 10);
+        width: 450px;
+        height: 45vh;
+        margin-top: 20vh;
+        margin-left: 50px;
+    }
+      .about-us h5{
+        background-color: rgb(36, 143, 68);
+        height: 8vh;
+        width: 400px;
+        margin-left: 200px;
+        margin-top:25vh;
+    }
+     .about-us p{
+        background-color: green;
+        margin-left: 200px;
+        height: 8vh;
+        width: 400px;
+        margin-top: 25px;
+    }
+    .about-us button{
+        background-color: pink;
+        padding: 12px 20px;
+        border-radius: 3px;
+        margin-left: 200px;
+        margin-top: 25px;
+        border: none;
+    }
+    main{
+        border:none;
+    }
+    .r-facility{
+        background-color: rgb(49, 32, 110);
+        height: 105vh;
+        width: 100%;
+        
+    }
+    .facility-img{
+        background-color: yellow;
+        width: 200px;
+        height: 10vh;
+        margin-top: 30px;
+        margin-left: 40%;
+        border-radius: 60px;
+        text-align: center;
+    }
+    .r-facility h4{
+        background-color: red;
+        width:300px ;
+        height:7vh ;
+        margin-top: 25px;
+        margin-left: 36%;
+    }
+    .r-facility .r{
+        display: flex;
+    }
+    .card1 {
+        background-color: black;
+        height: 35vh;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 70px;
+    }
+    .card1 .img{
+        background-color: yellow;
+        width: 60px;
+        height: 7vh;
+        color: black;
+        margin-left: 92px;
+        text-align: center;
+        border-radius: 80px;
+    }
+    .card1 h5{
+        background-color: red;
+        width: 170px;
+        height: 5vh;
+        margin-left: 45px;
+        margin-top: 12px;
+    }
+    .card1 p{
+        background-color: green;
+        width: 170px;
+        height: 8vh;
+        margin-left:45px ;
+        margin-top: 12px;
+    }
+    .menu-bar{
+        background-color: rgb(201, 11, 106);
+        height: 110vh;
+        width: 100%;
+        }
+        .menu-bar .pic{
+            background-color: rgb(39, 196, 65);
+            height: 50px;
+            width: 170px;
+           border-radius: 10px;
+            margin-top: 12px;
+            margin-left: 590px;
+            text-align: center;
+        }
+        .menu-bar h4{
+            background-color: red;
+            height:50px ;
+            margin-top: 25px;
+        width: 250px;
+        margin-left: 550px;
+        text-align: center;
+        }
+        .menu-card-r1{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+           padding-left: 250px;
+           padding-right: 250px;
+        }
+        .menu-card-r2{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding-left: 250px;
+            padding-right: 250px;
+        }
+        .menu-bar .card{
+            background-color: rgb(44, 11, 104);
+            height: 200px;
+            width: 200px;
+            
+        }
+        .menu-bar .image{
+            background-color: yellow;
+            height: 50vh;
+            height: 150px;
+        }
+        .menu-bar h5{
+        width: 100px;
+        margin-left: 50px;
+        }
+        .gallery{
+            background-color: rgb(10, 10, 80);
+            height: 120vh;
+        
+        }
+        .gallery .pic{
+            background-color: yellow;
+            height: 50px;
+            width: 150px;
+           position: absolute;
+            margin-top: 12px;
+            margin-left: 580px;
+        }
+        .gallery h4{
+            background-color: red;
+            height:50px ;
+            margin-top: 100px;
+        width: 250px;
+        margin-left: 530px;
+        position: absolute;
+        }
+         .gallery .image .r1{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 200px;
+            padding-left: 200px;
+            padding-right: 200px;
+         }
+         .gallery .image .r2{
+            display: flex;
+            justify-content: space-between; 
+            margin-top: 50px;
+            padding-left: 200px;
+            padding-right: 200px;
+         }
+         .image .new{
+            background-color: rgb(199, 109, 24);
+            height: 200px;
+            width: 200px;
+        }
+         .r-team{
+            background-color: rgb(82, 6, 44);
+        height: 110vh;
+        width: 100%;
+         }
+         .r-team .pic{
+            background-color: rgb(34, 202, 194);
+            height: 50px;
+            width: 170px;
+            margin-top: 12px;
+            margin-left: 590px;
+            text-align: center;
+        }
+        .r-team h4{
+            background-color: rgb(248, 63, 63);
+            height:50px ;
+            margin-top: 25px;
+        width: 250px;
+        margin-left: 550px;
+        text-align: center;
+        }
+         .r-team .menu-card-r1{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+           padding-left: 260px;
+           padding-right: 260px;
+        }
+        .r-team .menu-card-r2{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            padding-left: 260px;
+            padding-right: 260px;
+        }
+        .r-team .card2{
+            background-color: rgb(44, 11, 104);
+            height: 200px;
+            width: 200px;
+            
+        }
+        .r-team .image{
+            background-color: rgb(252, 79, 229);
+            height: 50vh;
+            height: 150px;
+        }
+        .r-team h5{
+        width: 100px;
+    }
+    .contact-us{
+        background-color: rgb(3, 128, 20);
+        height: 110vh;
+        width: 100% ;
+    }
+    .contact-us .image{
+        background-color: rgb(203, 241, 30);
+        height: 50px;
+        width: 100px;
+        margin-left: 650px;
+        margin-top: 12px;
+    }
+    .contact-us h4{
+        height: 50px;
+        width: 200px;
+        margin-left: 600px;
+        background-color: rgb(240, 65, 202);
+     margin-top: 12px;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .row .img{
+        background-color: grey;
+        height: 350px;
+        width: 350px;
+        margin-top: 70px;
+        margin-left: 70px;
+    }
+    .form{
+        background-color: blueviolet;
+        height: 400px;
+        width: 450px;
+        margin-top: 70px;
+        margin-right: 150px;
+    }
+    .form h3{
+        background-color: rgb(243, 43, 43);
+        width: 150px;
+        margin-left: 150px;
+        height: 5vh;
+    }
+    .form .input{
+        background-color: rgb(5, 203, 238);
+        height: 8vh;
+        margin-top: 20px;
+        width: 400px;
+        margin-left: 25px;
+        border-radius: 3px;
+    }
+    .form button{
+        padding: 20px 25px;
+        background: pink;
+        margin-left: 180px;
+        margin-top: 16px;
+    }
+    .contact-icons{
+        background-color: rgb(129, 31, 31);
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        }
+    .contact-icons .cards{
+        height: 250px;
+        width: 250px;
+        margin-top: 30px;
+        background-color: rgb(226, 43, 195);
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .cards .logo{
+        margin-left: 85px;
+        border-radius: 12px;
+        padding:5px 8px;
+    }
+    .cards h4{
+        background-color: blanchedalmond;
+        height: 5vh;
+        margin-top: 15px;
+        width: 200px;
+        margin-left: 24px;
+    }
+    .end{
+        background-color: black;
+        height: 15vh;
+    }
+    .end h6{
+        height:8vh ;
+        width: 600px;
+        background-color: rgb(240, 22, 22);
+        margin-left: 400px;
+        margin-top: 18px;
+        position: absolute;
+    }
